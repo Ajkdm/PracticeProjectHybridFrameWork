@@ -2,16 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-19T16:35:27 IST" name="Default suite" finished-at="2024-08-19T16:35:27 IST" duration-ms="35">
+  <suite started-at="2024-09-05T12:44:41 IST" name="suite" finished-at="2024-09-05T12:44:46 IST" duration-ms="5485">
     <groups>
     </groups>
-    <test started-at="2024-08-19T16:35:27 IST" name="Default test" finished-at="2024-08-19T16:35:27 IST" duration-ms="35">
-      <class name="testCases.TestClass2">
-        <test-method signature="m1()[pri:0, instance:testCases.TestClass2@41925502]" started-at="2024-08-19T16:35:27 IST" name="m1" finished-at="2024-08-19T16:35:27 IST" duration-ms="7" status="PASS">
+    <test started-at="2024-09-05T12:44:41 IST" name="test" finished-at="2024-09-05T12:44:46 IST" duration-ms="5485">
+      <class name="testCases.TestClass1">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TestClass1@2b43529a]" started-at="2024-09-05T12:44:41 IST" name="setup" finished-at="2024-09-05T12:44:45 IST" duration-ms="3877" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m1 -->
-      </class> <!-- testCases.TestClass2 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- setup -->
+        <test-method signature="testCase1()[pri:0, instance:testCases.TestClass1@2b43529a]" started-at="2024-09-05T12:44:45 IST" name="testCase1" finished-at="2024-09-05T12:44:46 IST" duration-ms="1578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TestClass1@2b43529a]" started-at="2024-09-05T12:44:46 IST" name="tearDown" finished-at="2024-09-05T12:44:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TestClass1 -->
+    </test> <!-- test -->
+  </suite> <!-- suite -->
 </testng-results>
