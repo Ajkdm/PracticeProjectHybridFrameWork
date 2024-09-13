@@ -47,6 +47,20 @@ public class TestClass1 extends BaseClass
 		
 		
 	}
+
+	@Test
+	public void testCase3() throws Exception 
+	{
+		//Properties prop=new Properties();
+		//FileInputStream file=new FileInputStream("./src/test/resource/Properties.properties");
+		
+		//prop.load(file);
+		
+		
+		driver.get("https://www.facebook.com/");
+		
+		
+	}
 	
 	@Test
 	public void testCase4() throws Exception 
