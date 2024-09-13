@@ -3,6 +3,9 @@
 	<test name="test">
 		<classes>
 			<class name="testCases.TestClass1" />
+			<methods>
+				<exclude name="testCase2"/>
+			</methods>
 		</classes>
 	</test>
 </suite>

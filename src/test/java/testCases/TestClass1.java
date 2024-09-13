@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.Properties;
 
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 import pageObjects.GoogleHomePage;
@@ -29,6 +30,21 @@ public class TestClass1 extends BaseClass
 		
 		driver.get(prop.getURL1());
 		page.enterTextOnSearchField(prop.getSearchText());
+		
+	}
+	
+	
+	@Test
+	public void testCase2() throws Exception 
+	{
+		//Properties prop=new Properties();
+		//FileInputStream file=new FileInputStream("./src/test/resource/Properties.properties");
+		
+		//prop.load(file);
+		
+		
+		driver.get("https://www.facebook.com/");
+		
 		
 	}
 	

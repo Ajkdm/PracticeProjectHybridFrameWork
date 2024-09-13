@@ -1,0 +1,11 @@
+testCases\TestClass1.class
+testCases\TestClass4.class
+utilities\GetPropertiesFile.class
+pageObjects\GoogleHomePage.class
+testCases\TestClass7.class
+testCases\TestClass2.class
+pageObjects\BaseConstructor.class
+testCases\TestClass6.class
+testBase\BaseClass.class
+testCases\TestClass5.class
+testCases\TestClass3.class
