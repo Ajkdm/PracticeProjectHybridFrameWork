@@ -27,8 +27,10 @@ public class TestClass1 extends BaseClass
 		prop=new GetPropertiesFile();
 		
 		GoogleHomePage page=new GoogleHomePage(driver);
-		
+		logger.info("Launching URL...............");
+		logger.debug("Debug Starts");
 		driver.get(prop.getURL1());
+		logger.info("Entering Test on the search field...................");
 		page.enterTextOnSearchField(prop.getSearchText());
 		
 	}
@@ -42,7 +44,8 @@ public class TestClass1 extends BaseClass
 		
 		//prop.load(file);
 		
-		
+		logger.info("Launhing FB URL...................");
+		logger.debug("Debug Starts");
 		driver.get("https://www.facebook.com/");
 		
 		
@@ -56,7 +59,8 @@ public class TestClass1 extends BaseClass
 		
 		//prop.load(file);
 		
-		
+		logger.info("Launhing FB URL...................");
+		logger.debug("Debug Starts");
 		driver.get("https://www.facebook.com/");
 		
 		
@@ -70,7 +74,8 @@ public class TestClass1 extends BaseClass
 		
 		//prop.load(file);
 		
-		
+		logger.info("Launhing Gmail URL...................");
+		logger.debug("Debug Starts");
 		driver.get("https://www.gmail.com/");
 		
 		
