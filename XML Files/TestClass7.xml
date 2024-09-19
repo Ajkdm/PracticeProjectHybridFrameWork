@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="suite">
+	<listeners>
+		
+		<listerner class-name="utilities.AnotationTransformer" />
+		<listerner class-name="utilities.Retry" />
+	</listeners>
+	<test name="test1">
+		<classes>
+			<class name="testCases.TestClass7" />
+		</classes>
+	</test>
+</suite>
