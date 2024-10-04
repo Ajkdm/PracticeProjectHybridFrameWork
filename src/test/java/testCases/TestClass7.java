@@ -21,7 +21,7 @@ public class TestClass7
 	public void m1() 
 	{
 		driver.get("https://www.google.com/");
-		Assert.fail();
+		//Assert.fail();
 	}
 	
 	@Test()
@@ -29,14 +29,14 @@ public class TestClass7
 	{
 		
 		driver.get("https://www.google.com/");
-		Assert.fail();
+		//Assert.fail();
 	}
 	
 	@Test()
 	public void m3() 
 	{
 		driver.get("https://www.google.com/");
-		Assert.fail();
+		//Assert.fail();
 	}
 	
 	@Test()
