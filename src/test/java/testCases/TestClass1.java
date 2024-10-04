@@ -1,10 +1,5 @@
 package testCases;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.util.Properties;
-
-import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 
 import pageObjects.GoogleHomePage;
@@ -24,14 +19,14 @@ public class TestClass1 extends BaseClass
 		
 		//prop.load(file);
 		
-		prop=new GetPropertiesFile();
+		//prop=new GetPropertiesFile();
 		
 		GoogleHomePage page=new GoogleHomePage(driver);
 		logger.info("Launching URL...............");
 		logger.debug("Debug Starts");
-		driver.get(prop.getURL1());
+		driver.get("https://www.google.com/");
 		logger.info("Entering Test on the search field...................");
-		page.enterTextOnSearchField(prop.getSearchText());
+		//page.enterTextOnSearchField(prop.getSearchText());
 		
 	}
 	

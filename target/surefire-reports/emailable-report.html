@@ -9,19 +9,32 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Surefire suite</th></tr>
-<tr><td><a href="#t0">Surefire test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">5,347</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Surefire test</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">4</td><td class="num">16,836</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testCases.TestClass1</td><td><a href="#m0">testCase1</a></td><td rowspan="1">1726480408656</td><td rowspan="1">27</td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">testCases.TestClass1</td><td><a href="#m1">testCase2</a></td><td rowspan="1">1726480408688</td><td rowspan="1">863</td></tr><tr class="passedeven"><td><a href="#m2">testCase3</a></td><td rowspan="1">1726480409552</td><td rowspan="1">612</td></tr><tr class="passedeven"><td><a href="#m3">testCase4</a></td><td rowspan="1">1726480410164</td><td rowspan="1">1662</td></tr><tr class="passedodd"><td rowspan="1">testCases.TestClass2</td><td><a href="#m4">m1</a></td><td rowspan="1">1726480411829</td><td rowspan="1">0</td></tr><tr class="passedeven"><td rowspan="1">testCases.TestClass4</td><td><a href="#m5">m1</a></td><td rowspan="1">1726480412715</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testCases.TestClass1</td><td><a href="#m0">testCase1</a></td><td rowspan="1">1728050448983</td><td rowspan="1">1382</td></tr><tr class="failedodd"><td rowspan="3">testCases.TestClass7</td><td><a href="#m1">m1</a></td><td rowspan="1">1728050456071</td><td rowspan="1">1425</td></tr><tr class="failedodd"><td><a href="#m2">m2</a></td><td rowspan="1">1728050458315</td><td rowspan="1">1484</td></tr><tr class="failedodd"><td><a href="#m3">m3</a></td><td rowspan="1">1728050460641</td><td rowspan="1">1348</td></tr><tr><th colspan="4">Surefire test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">testCases.TestClass1</td><td><a href="#m4">testCase2</a></td><td rowspan="1">1728050450375</td><td rowspan="1">932</td></tr><tr class="passedeven"><td><a href="#m5">testCase3</a></td><td rowspan="1">1728050451309</td><td rowspan="1">690</td></tr><tr class="passedeven"><td><a href="#m6">testCase4</a></td><td rowspan="1">1728050451999</td><td rowspan="1">2280</td></tr><tr class="passedodd"><td rowspan="1">testCases.TestClass2</td><td><a href="#m7">m1</a></td><td rowspan="1">1728050454281</td><td rowspan="1">1</td></tr><tr class="passedeven"><td rowspan="1">testCases.TestClass4</td><td><a href="#m8">m1</a></td><td rowspan="1">1728050455183</td><td rowspan="1">0</td></tr><tr class="passedodd"><td rowspan="1">testCases.TestClass7</td><td><a href="#m9">m4</a></td><td rowspan="1">1728050462853</td><td rowspan="1">1593</td></tr></tbody>
 </table>
 <h2>Surefire test</h2><h3 id="m0">testCases.TestClass1#testCase1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException: Cannot invoke &quot;java.util.Properties.getProperty(String)&quot; because &quot;this.prop&quot; is null
-	at utilities.GetPropertiesFile.getURL1(GetPropertiesFile.java:35)
-	at testCases.TestClass1.testCase1(TestClass1.java:32)
+	at utilities.GetPropertiesFile.getSearchText(GetPropertiesFile.java:41)
+	at testCases.TestClass1.testCase1(TestClass1.java:29)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 ... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testCases.TestClass1#testCase2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">testCases.TestClass1#testCase3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">testCases.TestClass1#testCase4</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">testCases.TestClass2#m1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">testCases.TestClass4#m1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testCases.TestClass7#m1</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
+	at testCases.TestClass7.m1(TestClass7.java:24)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testCases.TestClass7#m2</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
+	at testCases.TestClass7.m2(TestClass7.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testCases.TestClass7#m3</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: null
+	at testCases.TestClass7.m3(TestClass7.java:39)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testCases.TestClass1#testCase2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testCases.TestClass1#testCase3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testCases.TestClass1#testCase4</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testCases.TestClass2#m1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testCases.TestClass4#m1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">testCases.TestClass7#m4</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

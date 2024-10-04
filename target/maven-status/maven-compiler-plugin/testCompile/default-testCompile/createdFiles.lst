@@ -1,0 +1,16 @@
+testCases\TestClass1.class
+testCases\TestClass7.class
+utilities\AnotationTransformer.class
+testCases\TestClass2.class
+pageObjects\BaseConstructor.class
+testBase\BaseClass.class
+testCases\TestClass8.class
+utilities\ScreenShotMethods.class
+testCases\TestClass3.class
+testCases\TestClass4.class
+utilities\GetPropertiesFile.class
+pageObjects\GoogleHomePage.class
+utilities\ExtentReportManager.class
+testCases\TestClass6.class
+utilities\Retry.class
+testCases\TestClass5.class

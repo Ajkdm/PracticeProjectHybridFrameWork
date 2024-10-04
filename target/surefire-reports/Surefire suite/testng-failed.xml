@@ -3,6 +3,14 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="1" name="Surefire test(failed)" verbose="0">
     <classes>
+      <class name="testCases.TestClass7">
+        <methods>
+          <include name="m2"/>
+          <include name="m1"/>
+          <include name="m3"/>
+          <include name="m5"/>
+        </methods>
+      </class> <!-- testCases.TestClass7 -->
       <class name="testCases.TestClass1">
         <methods>
           <include name="tearDown"/>

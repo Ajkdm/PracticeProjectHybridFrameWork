@@ -1,13 +1,11 @@
-15:27:02.524[main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Ajay\Selenium\SelProjects\PracticeProjectHybridFrameWork\XML Files\TestClass7.xml
-
-15:33:12.282[main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Ajay\Selenium\SelProjects\PracticeProjectHybridFrameWork\XML Files\TestClass7.xml"
-15:33:12.306[main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Ajay\Selenium\SelProjects\PracticeProjectHybridFrameWork\XML Files\TestClass7.xml] otherwise TestNG may fail or not work as expected.
-15:33:12.616[main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Ajay\Selenium\SelProjects\PracticeProjectHybridFrameWork\XML Files\TestClass7.xml
-
-15:34:40.303[main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Ajay\Selenium\SelProjects\PracticeProjectHybridFrameWork\XML Files\TestClass7.xml"
-15:34:40.323[main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Ajay\Selenium\SelProjects\PracticeProjectHybridFrameWork\XML Files\TestClass7.xml] otherwise TestNG may fail or not work as expected.
-15:34:40.629[main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Ajay\Selenium\SelProjects\PracticeProjectHybridFrameWork\XML Files\TestClass7.xml
-
+19:45:40.294[main] DEBUG testCases.TestClass1 - Debug Starts
+19:45:40.898[main] INFO  testCases.TestClass1 - Launhing FB URL...................
+19:45:40.898[main] DEBUG testCases.TestClass1 - Debug Starts
+19:45:41.434[main] INFO  testCases.TestClass1 - Launhing Gmail URL...................
+19:45:41.434[main] DEBUG testCases.TestClass1 - Debug Starts
+19:45:44.176[main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@1a28b346: 38 ms
+19:45:44.178[main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@25e49cb2: 2 ms
+19:45:44.182[main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@3d8b319e: 4 ms
+19:45:44.187[main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@5cb042da: 4 ms
+19:45:44.190[main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@736309a9: 3 ms
+19:45:44.190[main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@4e93dcb9: 0 ms
