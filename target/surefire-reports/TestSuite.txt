@@ -1,20 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 17.607 s <<< FAILURE! - in TestSuite
-testCase1(testCases.TestClass1)  Time elapsed: 1.393 s  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "this.prop" is null
-	at testCases.TestClass1.testCase1(TestClass1.java:29)
-
-m1(testCases.TestClass7)  Time elapsed: 1.423 s  <<< FAILURE!
-java.lang.AssertionError: null
-	at testCases.TestClass7.m1(TestClass7.java:24)
-
-m2(testCases.TestClass7)  Time elapsed: 1.485 s  <<< FAILURE!
-java.lang.AssertionError: null
-	at testCases.TestClass7.m2(TestClass7.java:32)
-
-m3(testCases.TestClass7)  Time elapsed: 1.349 s  <<< FAILURE!
-java.lang.AssertionError: null
-	at testCases.TestClass7.m3(TestClass7.java:39)
-
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.463 s - in TestSuite

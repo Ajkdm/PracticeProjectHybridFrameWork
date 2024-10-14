@@ -9,3 +9,17 @@
 19:45:44.187[main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@5cb042da: 4 ms
 19:45:44.190[main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@736309a9: 3 ms
 19:45:44.190[main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@4e93dcb9: 0 ms
+20:01:41.989[main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Ajay\Selenium\SelProjects\PracticeProjectHybridFrameWork\Test4.xml"
+20:01:42.005[main] WARN  org.testng.xml.TestNGContentHandler - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\Ajay\Selenium\SelProjects\PracticeProjectHybridFrameWork\Test4.xml] otherwise TestNG may fail or not work as expected.
+20:01:42.238[main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Ajay\Selenium\SelProjects\PracticeProjectHybridFrameWork\Test4.xml
+
+20:03:59.624[main] INFO  testCases.TestClass1 - Launching URL...............
+20:03:59.627[main] DEBUG testCases.TestClass1 - Debug Starts
+20:04:00.474[main] INFO  testCases.TestClass1 - Entering Test on the search field...................
+20:04:00.476[main] INFO  testCases.TestClass1 - Launhing FB URL...................
+20:04:00.477[main] DEBUG testCases.TestClass1 - Debug Starts
+20:04:01.327[main] INFO  testCases.TestClass1 - Launhing FB URL...................
+20:04:01.327[main] DEBUG testCases.TestClass1 - Debug Starts
+20:04:01.987[main] INFO  testCases.TestClass1 - Launhing Gmail URL...................
+20:04:01.987[main] DEBUG testCases.TestClass1 - Debug Starts
